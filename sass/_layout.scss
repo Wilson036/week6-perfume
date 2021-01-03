@@ -1,0 +1,42 @@
+@import 'mixin';
+
+.text-ms {
+  @include line(14px);
+}
+.text-m {
+  @include line(16px);
+}
+.text-nav {
+  @include line(20px);
+}
+.text-lg {
+  @include line(40px);
+}
+.text-xl {
+  @include line(32px);
+}
+.text-md {
+  @include line(24px);
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-pos-center {
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.logo-setting {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.btn-dark-v2 {
+  color: #373a3c;
+  background-color: transparent;
+  border: 2px solid #373a3c;
+}
+.tertiary-hover {
+  &:hover {
+    background-color: $tertiary;
+  }
+}

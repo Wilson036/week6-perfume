@@ -1,0 +1,70 @@
+@import 'bootstrap/bootstrap.scss';
+@import 'layout';
+li {
+  list-style: none;
+}
+.logo {
+  display: block;
+  width: 128px;
+  height: 38px;
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png');
+}
+.banner {
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg');
+}
+.banner-height {
+  min-height: 870px;
+}
+.bottom-img {
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg');
+}
+.bottom-img-size {
+  min-height: 600px;
+}
+.img-size {
+  max-width: 555px;
+  max-height: 555px;
+}
+.login-img {
+  width: 730px;
+  height: 730px;
+}
+
+.img-size-md {
+  height: 540px;
+}
+.img-shadow {
+  filter: brightness(70%);
+}
+
+.img-size-lg {
+  min-height: 1080px;
+}
+.pt-8 {
+  padding-top: 2rem;
+}
+.ml-4 {
+  margin-left: 4px;
+}
+.sold-out {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.subscription {
+  display: flex;
+  width: 350px;
+  height: 60px;
+  border-width: 2px !important;
+  border-radius: 4px;
+  input[type='text'] {
+    flex-grow: 2;
+    border: none;
+    border-radius: 0;
+    padding-left: 8px;
+  }
+  button {
+    flex-grow: 1;
+    border-radius: 0;
+  }
+}
